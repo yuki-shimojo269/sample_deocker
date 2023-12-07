@@ -17,4 +17,4 @@ services:
     volumes:
         - ../../:/home/challenger/ascender
     ports:
-        - 8000:8000
+        - 8090:8090
