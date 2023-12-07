@@ -1,8 +1,9 @@
 version: "3.8"
 
 services:
-  hogehoge:
+  core:
     runtime: nvidia
+    name: my-container
     environment:
       - NVIDIA_VISIBLE_DEVICES=all
     build:
