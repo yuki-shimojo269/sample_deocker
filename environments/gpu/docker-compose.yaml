@@ -3,7 +3,7 @@ version: "3.8"
 services:
   core:
     runtime: nvidia
-    container_name: hogehoge
+    container_name: contanor2
     environment:
       - NVIDIA_VISIBLE_DEVICES=all
     build:
