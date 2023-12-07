@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  core:
+  yuki:
     runtime: nvidia
     container_name: contanor2
     environment:
