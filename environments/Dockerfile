@@ -1,5 +1,6 @@
 ARG BASE_IMAGE=ubuntu:20.04
 FROM ${BASE_IMAGE}
+LABEL my-image-name="hogehoge"
 
 ARG PROJECT_NAME=ascender
 ARG USER_NAME=challenger
